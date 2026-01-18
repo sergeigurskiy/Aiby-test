@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://aiby.com/favicons/favicon-32x32.png?v=1.1">
+    <title>Aiby test</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="main main-ibg" data-fullscreen>
+            <picture>
+                <source srcset="assets/images/main-bg-2x.webp 1x, assets/images/main-bg-3x.webp 2x" type="image/webp">
+                <img class="ibg" src="assets/images/main-bg-2x.webp" srcset="assets/images/main-bg-3x.webp 2x"
+                    alt="Aiby-bg">
+            </picture>
+            <div class="main__close">
+                <div class="container">
+                    <a href="#"><img src="assets/images/cross.svg" alt="cross"></a>
+                </div>
+            </div>
+            <div class="main__content">
+                <div class="container">
+                    <div class="main__body">
+                        <h1 data-lan="Get Unlimited <br>Access" data-lan-type="html" class="main__title">Get
+                            Unlimited<br>Access</h1>
+                        <div class="main__services">
+                            <div class="main__column">
+                                <div class="main__item">
+                                    <div class="main__img">
+                                        <img src="/assets/images/services/01-x2.webp"
+                                            srcset="/assets/images/services/01-x3.webp 2x" alt="">
+                                        <span data-lan="Unlimited Art <br>Creation" data-lan-type="html">Unlimited Art
+                                            Creation</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__column">
+                                <div class="main__item">
+                                    <div class="main__img">
+                                        <img src="/assets/images/services/02-x2.webp"
+                                            srcset="/assets/images/services/02-x3.webp 2x" alt="">
+                                        <span data-lan="Exclusive <br>Styles" data-lan-type="html">Exclusive
+                                            Styles</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__column">
+                                <div class="main__item">
+                                    <div class="main__img">
+                                        <img src="/assets/images/services/03-x2.webp"
+                                            srcset="/assets/images/services/03-x3.webp 2x" alt="">
+                                        <span data-lan="Magic Avatars <br>With 20% Off" data-lan-type="html">Magic
+                                            Avatars With 20% Off</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="main__form form" action="#">
+                        <div class="form__body">
+                            <label class="form__label" for="form-yearly">
+                                <input checked type="radio" name="form-choose" id="form-yearly">
+                                <div class="form__item">
+                                    <div class="form__item-wrapper">
+                                        <h2 data-lan="YEARLY ACCESS" class="form__title">
+                                            Yearly access
+                                        </h2>
+                                        <span data-lan="Just {{price}} per year" data-lan-price="$39.99">Just $39.99 per
+                                            year</span>
+                                    </div>
+
+                                    <p data-lan="{{price}} <br>per week" data-lan-price="$0.48" data-lan-type="html"
+                                        class="form__price">$0.48<br>per week</p>
+                                </div>
+                                <span data-lan="BEST OFFER" class="form__offer">
+                                    best offer
+                                </span>
+                                <div class="form__decor">
+                                    <img src="assets/images/decor.svg" alt="">
+                                </div>
+                            </label>
+                            <label class="form__label" for="form-weekly">
+                                <input type="radio" name="form-choose" id="form-weekly">
+                                <div class="form__item">
+                                    <h2 data-lan="WEEKLY ACCESS" class="form__title">
+                                        Weekly access
+                                    </h2>
+                                    <p data-lan="{{price}} <br>per week" data-lan-price="$6.99" data-lan-type="html"
+                                        class="form__price">$6.99<br>per week</p>
+                                </div>
+                            </label>
+                        </div>
+                        <a href="#" class="form__btn" data-lan="Continue">Continue</a>
+                    </form>
+                    <ul class="main__list">
+                        <li class="main__link"><a data-lan="Terms of Use" href="https://apple.com/">Terms of Use</a>
+                        </li>
+                        <li class="main__link"><a data-lan="Privacy Policy" href="https://google.com/">Privacy
+                                Policy</a></li>
+                        <li class="main__link"><a data-lan="Restore" href="#">Restore</a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
