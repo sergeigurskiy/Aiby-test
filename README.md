@@ -1,7 +1,7 @@
 # AIBY - test project
 
 ## description
-Developed a full-screen web page in 7 specialized languages
+Developed a full-screen web page in 6 specialized languages
 
 ## Functional
 - Responsive Design
