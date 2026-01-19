@@ -1,9 +1,5 @@
 @use 'sass:math';
 @use '/assets/scss/helpers/mixins.scss' as *;
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic');
-@include font ('SF-Pro','SF-Pro-Display-Heavy', 900, 'normal');
-@include font ('SF-Pro','SF-Pro-Display-Regular', 400, 'normal');
-@include font ('SF-Pro','SF-Pro-Display-Semibold', 600, 'normal');
-@include font ('SF-Pro','SF-Pro-Display-Thin', 300, 'normal');
-@include font ('SF-Pro','SF-Pro-Display-Ultralight', 200, 'normal');
+
 

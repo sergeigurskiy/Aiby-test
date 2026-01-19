@@ -11,10 +11,11 @@
     display: flex;
     flex-direction: column;
     padding-top: 64px;
-    padding-bottom: 8px;
+    padding-bottom: 38px;
 
     @media(max-width:380px) {
         padding-top: 37px;
+        padding-bottom: 8px;
     }
 
     &::after {
@@ -148,8 +149,7 @@
             white-space: nowrap;
             text-decoration: underline;
             font-weight: 200;
-            opacity: .2;
-            letter-spacing: 1px;
+            opacity: .5;
             text-decoration: underline;
             text-underline-offset: 0.2em;
             text-decoration-offset: 0%;
@@ -201,7 +201,7 @@
         justify-content: space-between;
         align-items: center;
         height: 100%;
-
+        column-gap: 5px;
     }
 
     &__label {
@@ -256,6 +256,7 @@
         display: flex;
         flex-direction: column;
         row-gap: 3px;
+       
 
         & span {
             font-weight: 400;
@@ -265,11 +266,13 @@
     }
 
     &__price {
-        // flex: 0 1 61px;
+        // flex: 0 1 200px;
         font-weight: 400;
         color: rgba(255, 255, 255, .7);
         font-size: 16px;
         line-height: 120%;
+        // display: flex;
+        // justify-content: flex-end;
 
     }
 
@@ -338,34 +341,32 @@
 }
 
 .es .main__link a,
-.ja .main__link a{
+.ja .main__link a,
+.de .main__link a,
+.fr .main__link a {
     font-size: 10px;
 }
 
 .es .main__list {
     column-gap: 30px;
-
 }
 
 .de .main__list,
 .fr .main__list,
-.pt .main__list{
+.pt .main__list {
     column-gap: 20px;
-    width: 100%;
-    overflow: auto;
-    justify-content: flex-start;
 }
 
-.de .form__title, 
+.de .form__title,
 .fr .form__title,
-.es .form__title, 
+.es .form__title,
 .pt .form__title {
     font-size: 12px;
 }
 
 .de .form__item-wrapper,
 .fr .form__item-wrapper,
-.es .form__item-wrapper, 
+.es .form__item-wrapper,
 .pt .form__item-wrapper {
     & span {
         font-size: 10px;
@@ -374,13 +375,13 @@
 
 .de .form__price,
 .fr .form__price,
-.es .form__price, 
+.es .form__price,
 .pt .form__price {
     font-size: 12px;
 }
 
 .de .form__offer,
-.fr .form__offer, 
+.fr .form__offer,
 .es .form__offer,
 .pt .form__offer {
     font-size: 12px;

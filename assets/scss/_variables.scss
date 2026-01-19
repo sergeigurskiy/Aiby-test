@@ -1,6 +1,8 @@
 @use './helpers/mixins.scss' as *;
 
 :root {
-    --font-family-base: 'SF-Pro';
+    --font-family-base: system-ui, -apple-system, BlinkMacSystemFont, 
+               'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     --color-white: #ffffff;
+    
 }
