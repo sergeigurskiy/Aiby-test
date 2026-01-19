@@ -256,7 +256,7 @@
         display: flex;
         flex-direction: column;
         row-gap: 3px;
-       
+
 
         & span {
             font-weight: 400;
@@ -340,22 +340,27 @@
 
 }
 
-.es .main__link a,
-.ja .main__link a,
-.de .main__link a,
-.fr .main__link a {
-    font-size: 10px;
-}
+// .es .main__link a,
+// .ja .main__link a,
+// .de .main__link a,
+// .fr .main__link a {
+//     font-size: 11px;
+// }
 
-.es .main__list {
-    column-gap: 30px;
-}
+// .de .main__link a {
+//     font-size: 12px;
 
-.de .main__list,
-.fr .main__list,
-.pt .main__list {
-    column-gap: 20px;
-}
+// }
+
+// .es .main__list {
+//     column-gap: 30px;
+// }
+
+// .de .main__list,
+// .fr .main__list,
+// .pt .main__list {
+//     column-gap: 20px;
+// }
 
 .de .form__title,
 .fr .form__title,
@@ -385,4 +390,25 @@
 .es .form__offer,
 .pt .form__offer {
     font-size: 12px;
+}
+
+// @media(max-width:380px) {
+//     .es .main__link a{
+
+//     }
+// }
+.es .main__list,
+.fr .main__list,
+.pt .main__list{
+    @include adaptiveValue('column-gap', 30, 15, 390, 345, 1);
+}
+.ja .main__list{
+    @include adaptiveValue('column-gap', 52, 15, 390, 345, 1);
+}
+.de .main__list{
+    @include adaptiveValue('column-gap', 20, 10, 390, 345, 1);
+}
+.de .main__link a,
+.fr .main__link a {
+    font-size: 11px;
 }
